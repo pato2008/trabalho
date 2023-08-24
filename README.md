@@ -35,3 +35,8 @@ regras criadas com seletor de tipo tag,são mais generalistas,ou seja , a format
 regras criadas com seletor do tipo classe, sao maisversateis , ou seja , voce determina onde aplicar a classe a sua fromataçao
 
 classses podem ser reutilizadas nas mesma pagina a combimadas com outras classes
+
+
+###  ID
+
+regrs cridas com o seletor do tipo id, sao mais versateis ou seja , vc determina onde aplicar o id e sua formaçao,**ATENÇAO** vc n pode reaproveita IDs,ou seja, seletor ID deve ser usado SEMPRE PARA UM ELEMENTO
