@@ -1,0 +1,78 @@
+/* este arquivo ,faremos todas as REGAS CSS
+nessarios para a formatação do site  */
+
+
+body{
+
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+background-color:cornflowerblue;
+
+background-image: url(../imagens/watercolor.png);
+
+}
+
+
+h1 { 
+ color: #ffefef;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+background-color: rgb(143, 142, 143);
+padding: 10px;
+border-radius: 9px;
+box-shadow:rgb(204, 202, 202) 0 0 15px inset;
+box-shadow: white 0 0 15px;
+border-width: 8px;
+border-color: rgb(49, 49, 47);
+border-style: solid;
+text-transform: uppercase;
+text-align: center;}
+displ
+
+
+h2{
+font-size: 20px;    
+border-bottom: solid 5px;
+border-left: dashed 5px;
+border-right: dashed 5px;
+padding-left: 10 ;}
+
+
+h3,p,figcaption{
+font-family: Georgia, 'Times New Roman', Times, serif;}
+
+h3{
+
+background: linear-gradient( 
+    to right ,
+rgb(122, 122, 122),
+rgb(53, 53, 53)
+);
+
+
+}
+
+#container{    
+background-color: rgb(160, 160, 160);
+width: 70%;
+margin: auto;
+box-shadow: rgb(255, 0, 0) 
+padding: 10px;
+border-radius: 8px;
+color;rgb(255, 255, 255);
+    }
+
+.destaque{
+background-color: black;
+padding: 3px;
+color: white;
+border-radius: 4px;
+}
+
+
+
+
+figure{
+margin: 0;
+text-align: center;}
+
+img{ max-width: 100%;}
