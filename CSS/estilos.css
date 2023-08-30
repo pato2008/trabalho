@@ -76,3 +76,10 @@ margin: 0;
 text-align: center;}
 
 img{ max-width: 100%;}
+
+li::marker{
+
+content: "❤";
+
+
+}
