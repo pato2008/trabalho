@@ -14,6 +14,9 @@ body {
 
 
 h1 {
+    animation-name:caindo;
+    animation-duration:3s;
+    
     color: #ffefef;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: rgb(143, 142, 143);
@@ -133,18 +136,39 @@ nav a:hover {
 
 figure img {
     filter: grayscale();
-    clip-path: polygon(20% 0%, 0% 20%, 30% 50%, 0% 80%, 20% 100%, 50% 70%, 80% 100%, 100% 80%, 70% 49%, 100% 20%, 80% 0%, 50% 30%);;
+    /* clip-path: polygon(20% 0%, 0% 20%, 30% 50%, 0% 80%, 20% 100%, 50% 70%, 80% 100%, 100% 80%, 70% 49%, 100% 20%, 80% 0%, 50% 30%);; */
+
+
+    transform: scale(1);
 }
+
+
 
 figure img:hover {
     filter: none;
     transition: 2s;
-}
-
-figure img:hover{ filter: none;
-clip-path: polygon(20% 0%, 0% 20%, 0 52%, 0% 80%, 20% 100%, 47% 100%, 80% 100%, 100% 82%, 100% 50%, 100% 20%, 80% 0%, 48% 0);
-
-
-
 
 }
+
+figure img:hover {
+    filter: none;
+    /* clip-path: polygon(20% 0%, 0% 20%, 0 52%, 0% 80%, 20% 100%, 47% 100%, 80% 100%, 100% 82%, 100% 50%, 100% 20%, 80% 0%, 48% 0); */
+
+    transform: scale(0.8);
+    /* rotate(360deg) */
+}
+
+@keyframes caindo{
+
+from{ transform: translateY(-100px);
+opacity: 0;
+
+}
+
+to{transform: translateY(0);}
+
+
+
+
+}
+
