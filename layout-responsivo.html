@@ -18,7 +18,7 @@
 
         .container {
             background-color: rgb(175, 185, 185);
-            box-shadow: rgb(255, 60, 0) 0 0 10px;
+            box-shadow: rgb(255, 60, 0) 0 0 110px;
             padding: 5px;
         }
 
@@ -93,10 +93,58 @@
 
             main {
                 display: flex;
-            /* o warp faz ser posivel "quebra" os elementos presntes */
+                /* o warp faz ser posivel "quebra" os elementos presntes */
                 flex-wrap: wrap;
 
             }
+        }
+
+        @media screen and (min-width:1100px) {
+
+            .container {
+                max-width: 1100px;
+                margin: auto;
+            }
+
+            header {
+                height: 100px;
+            }
+
+
+
+            #coluna {
+                width: 33%;
+            }
+
+            #colunab {
+                width: 33%;
+            }
+
+            #colunaccc {
+                width: 33%;
+            }
+
+            main {
+                display: flex;
+                justify-content: space-between;
+            }
+
+            h1 {
+                width: 60%;
+            }
+
+            #coluna,
+            #colunab,
+            #colunaccc {
+                width: 33%;
+            }
+
+            main {
+                flex-wrap: nowrap;
+            }
+
+            /*nowrap garaente q os itens vao ficar lado a lado  */
+
         }
     </style>
 
