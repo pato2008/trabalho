@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>rsponsilve</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            background-color: rgb(15, 100, 173)
+        }
+
+
+        .container {
+            background-color: rgb(175, 185, 185);
+            box-shadow: rgb(255, 60, 0) 0 0 10px;
+            padding: 5px;
+        }
+
+        body,
+        h1,
+        h2,
+        p {
+            margin: 0;
+            padding: 0;
+        }
+
+        p {
+            padding: 5px 0;
+        }
+
+        nav {
+            background-color: blueviolet;
+        }
+
+        h1 {
+            background-color: bisque;
+        }
+
+        #coluna {
+            background-color: blue;
+        }
+
+        #colunab {
+            background-color: chartreuse;
+        }
+
+        #colunaccc {
+            background-color: fuchsia;
+        }
+
+        footer {
+            background-color: aqua;
+            height: 150px;
+        }
+
+        @media screen and (min-width:522px) {
+            header {
+                display: flex;
+                justify-content: space-between;
+
+            }
+
+            h1 {
+                width: 40%;
+            }
+
+            nav {
+                width: 60%;
+                display: flex;
+                justify-content: space-evenly;
+                align-items: center;
+            }
+        }
+
+        @media screen and (min-width: 842px) {
+            #coluna {
+                width: 70%;
+            }
+
+            #colunab {
+                width: 30%;
+            }
+
+            #colunaccc {
+                width: 100%;
+            }
+
+            main {
+                display: flex;
+            /* o warp faz ser posivel "quebra" os elementos presntes */
+                flex-wrap: wrap;
+
+            }
+        }
+    </style>
+
+
+
+</head>
+
+<body>
+
+    <div class="container">
+        <header>
+            <h1>exemplo</h1>
+            <nav>
+
+                <a href="">link</a>
+                <a href="">link</a>
+                <a href="">link</a>
+
+            </nav>
+        </header>
+        <main>
+            <article id="coluna">
+                <h2>columa</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus magni nihil velit,
+                    mollitia voluptates nam omnis, fuga commodi repellat blanditiis perferendis minima laborum hic
+                    ipsam sunt debitis et ducimus nemo.</p>
+            </article>
+            <article id="colunab">
+                <h2>colunab</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure quo veritatis id qui impedit
+                    dolores, est soluta omnis! Beatae dicta harum quas perferendis ipsam consequatur quae nihil cum
+                    dolorem amet.</p>
+            </article>
+            <article id="colunaccc">
+                <h2>colunaccc</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita quas debitis, dolor enim
+                    voluptatibus neque quidem quaerat labore sed quam, ipsam omnis reiciendis dolores consectetur,
+                    laborum repellendus beatae ea soluta.</p>
+            </article>
+        </main>
+
+        <footer>
+            <h2>rodape</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni officiis error corporis temporibus
+                necessitatibus tempore eius laboriosam ex mollitia in. Aut illo minus a, corporis consequuntur
+                mollitia sint fuga itaque?</p>
+
+        </footer>
+    </div>
+
+
+</body>
+
+</html>
